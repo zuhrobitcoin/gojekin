@@ -55,14 +55,14 @@ if ($register == false)
             if ($claim == false) {
                 echo "\e[92m[!]".$claim['errors'][0]['message']."\n";
                 sleep(3);
-                echo "\e[93m[!] Trying to redeem Voucher : GOFOODBOBA19 !\n";
+                echo "\e[93m[!] Trying to redeem Voucher : GOFOODSANTAI11 !\n";
                 sleep(3);
                 goto next1;
             }
             else{
                 echo "\e[92m[+] ".$claim."\n";
                 sleep(3);
-                echo "\e[93m[!] Trying to redeem Voucher : COBAINGOJEK !\n";
+                echo "\e[93m[!] Trying to redeem Voucher : GOFOODSANTAI08 !\n";
                 sleep(3);
                 goto ride;
             }
@@ -71,7 +71,7 @@ if ($register == false)
             if ($claim == false) {
                 echo "\e[92m[!]".$claim['errors'][0]['message']."\n";
                 sleep(3);
-                echo "\e[93m[!] Trying to redeem Voucher : COBAINGOJEK !\n";
+                echo "\e[93m[!] Trying to redeem Voucher : GOFOODSANTAI15 !\n";
                 sleep(3);
                 goto ride;
             }
@@ -79,7 +79,7 @@ if ($register == false)
             {
             echo "\e[92m[+] ".$claim . "\n";
             sleep(3);
-            echo "\e[93m[!] Trying to redeem Voucher : COBAINGOJEK !\n";
+            echo "\e[93m[!] Trying to redeem Voucher : GOFOODSANTAI18 !\n";
             sleep(3);
             goto ride;
             }
@@ -88,7 +88,7 @@ if ($register == false)
             if ($claim == false ) {
                 echo "\e[92m[!]".$claim['errors'][0]['message']."\n";
                 sleep(3);
-                echo "\e[93m[!] Trying to redeem Voucher : AYOCOBAGOJEK !\n";
+                echo "\e[93m[!] Trying to redeem Voucher : GOFOODSANTAI 19!\n";
                 sleep(3);
 
             }
